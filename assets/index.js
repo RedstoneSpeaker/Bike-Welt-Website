@@ -25,3 +25,7 @@ function gotoEmployeesFromMain(){
 function gotoContactFromMain(){
     window.location.href = "contact";
 }
+
+function redirectToMaintenance(){
+    window.location.href = "maintenance"
+}
