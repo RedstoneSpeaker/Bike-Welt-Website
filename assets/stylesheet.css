@@ -1,14 +1,48 @@
 body{
-    background-image: url(../assets/pictures/shop-background.png);
+    background-image: url(../assets/pictures/other/shop-background.png);
     background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
     background-attachment: fixed;
 }
 
-.navbar{
+.header{
+    position: fixed !important; 
+    position: absolute;
     height: 100px;
-    width: 100%;
+    width: 99.15%;
     background-color: rgba(255, 0, 0, 0.747);
     color: white;
+}
+
+.navBar{
+    position: fixed !important; 
+    position: absolute;
+    height: 30px;
+    width: 99.15%;
+    background-color: rgba(255, 72, 0, 0.747);
+    color: white; 
+    margin-top: 100px;
+}
+
+.navButton{
+    height: 100%;
+    width: 100%;
+
+    color: white;
+    font-size: medium;
+    background-color: transparent;
+
+    border-radius: 2px;
+    border-color: orange;
+}
+
+.navBarSection{
+    width: 100%;
+    height: 100%;
+
+    align-content: center;
+    display: flex;
 }
 
 .logo{
@@ -21,11 +55,60 @@ body{
     text-align: center;
 }
 
+.spacer{
+    height: 500px;
+    width: 100%;
+}
+
 .headingHigher{
     margin-top: -100px;
 }
 
 .sells{
     background-color: rgba(0, 0, 0, 0.5);
-    margin-top: 100px;
+
+    display: flex;
+    flex-flow: row wrap;
+    align-content: baseline;
+    flex-grow: inherit;
+
+    height: auto;
+    padding: 20px;
+}
+
+div.sell{
+    background-color: rgba(197, 197, 197, 0.5);
+    border: 2px rgba(128, 128, 128, 0.5);
+    border-radius: 10px;
+
+    height: 500px;
+    width: 500px;
+
+    margin: 30px;
+}
+
+p.sell{
+    color: white;
+    font-size: x-large;
+}
+
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(77, 0, 0);
+    color: white;
+}
+
+.idNumber{
+    color: rgba(68, 68, 68, 0.733);
+    font-size: medium;
+    margin: 0px;
+}
+
+p.Heading{
+    align-items: center;
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+    text-decoration: underline;
 }
