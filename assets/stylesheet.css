@@ -1,9 +1,10 @@
 body{
     background-image: url(../assets/pictures/other/shop-background.png);
-    background-repeat: no-repeat;
+    background-repeat: round;
     background-position-x: center;
     background-position-y: center;
     background-attachment: fixed;
+    background-size: auto;
 }
 
 .header{
@@ -56,8 +57,15 @@ body{
 }
 
 .spacer{
-    height: 500px;
+    height: auto;
     width: 100%;
+
+    margin-bottom: 10%;
+
+    display: flex;
+    flex-flow: row wrap;
+    align-content: baseline;
+    flex-grow: inherit;
 }
 
 .headingHigher{
@@ -92,13 +100,6 @@ p.sell{
     font-size: x-large;
 }
 
-footer{
-    height: 100px;
-    width: 100%;
-    background-color: rgb(77, 0, 0);
-    color: white;
-}
-
 .idNumber{
     color: rgba(68, 68, 68, 0.733);
     font-size: medium;
@@ -111,4 +112,35 @@ p.Heading{
     font-size: xx-large;
     color: white;
     text-decoration: underline;
+}
+
+.welcomeMessage{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+
+    flex-flow: column nowrap;
+
+    height: auto;
+    width: 50%;
+    background-color: rgba(212, 212, 212, 0.89);
+
+    margin-top: 15%;
+    margin-left: 25%;
+
+    border-radius: 30px;
+}
+
+.footer{
+    position: absolute;
+    height: 30px;
+    width: 100%;
+    background-color: rgba(255, 72, 0, 0.747);
+    color: white; 
+    margin-top: 100px;
+}
+
+.footerContent{
+    width: 33,3%;
+    height: 100%;
 }
