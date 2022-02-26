@@ -1,0 +1,13 @@
+.navbar{
+    height: 100px;
+    width: 100%;
+    background-color: red;
+    color: white;
+}
+
+.center{
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
