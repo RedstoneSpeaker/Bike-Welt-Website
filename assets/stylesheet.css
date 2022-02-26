@@ -4,7 +4,7 @@ body{
     background-position-x: center;
     background-position-y: center;
     background-attachment: fixed;
-    background-size: auto;
+    background-size: cover;
 }
 
 .header{
