@@ -11,7 +11,7 @@ function gotoContact(){
 }
 
 function gotoMain(){
-    window.location.replace = "../"
+    window.location.href = "../"
 }
 
 function gotoInformationFromMain(){
