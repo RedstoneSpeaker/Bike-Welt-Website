@@ -78,7 +78,9 @@ body{
     display: flex;
     flex-flow: row wrap;
     align-content: baseline;
+    justify-content: center;
     flex-grow: inherit;
+    align-self: center;
 
     height: auto;
     padding: 20px;
