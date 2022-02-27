@@ -26,6 +26,6 @@ function gotoContactFromMain(){
     window.location.href = "contact";
 }
 
-function redirectToMaintenance(){
+function gotoMaintenanceFromMain(){
     window.location.href = "maintenance"
 }
