@@ -29,3 +29,7 @@ function gotoContactFromMain(){
 function gotoMaintenanceFromMain(){
     window.location.href = "maintenance"
 }
+
+function gotoMaintenance(){
+    window.location.href = "../maintenance"
+}
