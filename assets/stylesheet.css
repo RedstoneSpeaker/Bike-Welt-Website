@@ -74,6 +74,7 @@ body{
 
 .sells{
     background-color: rgba(0, 0, 0, 0.5);
+    color: white;
 
     display: flex;
     flex-flow: row wrap;
@@ -120,6 +121,7 @@ p.Heading{
     text-align: center;
     align-items: center;
     align-content: center;
+    color: black;
 
     flex-flow: column nowrap;
 
@@ -147,4 +149,14 @@ p.Heading{
     width: 33,3%;
     height: 100%;
 
+}
+
+.autoHeight{
+    height: auto !important;
+}
+
+.element-divider{
+    border: 1px;
+    border-style: solid;
+    border-color: black;
 }

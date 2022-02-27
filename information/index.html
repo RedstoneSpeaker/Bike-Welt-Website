@@ -4,8 +4,15 @@
     <script src="../assets/index.js"></script>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../assets/stylesheet.css">
+    <link rel="stylesheet" href="stylesheet-informationen.css">
     <title>Bike-Welt</title>
     <link rel="icon" type="image/x-icon" href="../assets/pictures/Favicon.ico">
+
+    <style>
+        .marginLeft{
+    margin-left: 5%;
+    }
+    </style>
 </head>
 
 <body>
@@ -17,12 +24,36 @@
     <div class="navBar">
         <div class="navBarSection">
             <button class="navButton" onclick="gotoMain()">Angebote</button>
-            <button class="navButton" onclick="gotoMaintenance()">Mitarbeiter</button>
-            <button class="navButton" onclick="gotoMaintenance()">Kontakt (mieten/kaufen/reservieren)</button>
+            <button class="navButton" onclick="gotoEmployees()">Mitarbeiter</button>
+            <button class="navButton" onclick="gotoContact()">Kontakt (mieten/kaufen/reservieren)</button>
         </div>
     </div>
     <div class="spacer"> 
+        <div class="sells welcomeMessage">
+            <h2>Informationen</h2>
+        </div>
     </div>
     <div class="sells">
-        <h2>Wer ist die "All-In-One-GmbH"</h2>
+        <div class="sell" style="height: auto;">
+            <h2 class="center">Wie funktioniert das Mieten?</h2>
+            <p class="center marginLeft">1. Du kontaktierst uns über unser Online-Formular oder triffst uns persönlich an Unserem Shop</p>
+            <p class="center marginLeft">2. Wir berechnen Dir den Gesamtpreis, bestehend aus der Grundgebühr (1.000€) und der täglichen Miete, welcher bei Mietstart beglichen werden muss</p>
+            <p class="center marginLeft">3. Du bekommst von uns den Motorradschlüssel ausgehändigt</p>
+            <p class="center marginLeft">4. Nun kannst Du das Fahrzeug bis Ende des Mietzeitraums nutzen und Spaß haben</p>
+            <p class="center marginLeft">5. Zum Ende des Mietzeitraums solltest Du uns das Fahrzeug unbeschädigt und betankt zurückgeben. Melde dich hierfür bei einem unserer Mitarbeiter und stelle das Fahrzeug auf einem unserer Rückgabeplätze vor dem Shop ab</p>
+        </div>
+        <div class="sell" style="height: auto;">
+            <h2 class="center">Wie funktioniert das Reservieren?</h2>
+            <p class="center marginLeft">1. Du reservierst das Motorrad über unser Online-Formular oder persönlich an Unserem Shop</p>
+            <p class="center marginLeft">2. Du überweist uns 250€ an DEF08805654 mit dem Verwendungszweck "Reservierung &#60;Stellplatz Nr.&#62;". Hiermit wird die Reservierung gültig. Ungültige Reservierungen werden mit dem jeweiligen Grund zurückgebucht</p>
+            <p class="center marginLeft">3. Das Motorrad wird ab diesem Zeitpunkt für 3 Tage nicht an andere verkauft oder vermietet</p>
+            <p class="center marginLeft">4. Melde dich innerhalb dieser Zeit, um dir Dein Motorrad zu sichern.</p>
+        </div>
+        <div class="sell" style="height: auto;">
+            <h2 class="center">Wie funktioniert das Kaufen?</h2>
+            <p class="center marginLeft">1. Du kontaktierst uns über unser Online-Formular oder triffst uns persönlich an Unserem Shop</p>
+            <p class="center marginLeft">2. Wir geben Dir Bescheid, wenn Dein Motorrad kaufbereit ist</p>
+            <p class="center marginLeft">3. Begib dich nach kurzer Rückmeldung zur KFZ-Zulassungstselle im Rathaus Altstadt</p>
+            <p class="center marginLeft">4. Nach Abwicklung des Kaufes steht Dein neues Motorrad in der Bike-Welt Offenbach-Süd zur Abholung bereit</p>
+        </div>
     </div>
