@@ -1,3 +1,7 @@
+
+
+//GOTO-Stuff NO-Edit!
+
 function gotoInformation(){
     window.location.href = "../information";
 }
