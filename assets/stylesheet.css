@@ -5,6 +5,7 @@ body{
     background-position-y: center;
     background-attachment: fixed;
     background-size: cover;
+    style="margin: 0 !important;"
 }
 
 .header{
