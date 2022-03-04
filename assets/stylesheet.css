@@ -104,6 +104,12 @@ p.sell{
     font-size: x-large;
 }
 
+p.notAvailable{
+    color: white;
+    font-size: 17px;
+
+}
+
 .idNumber{
     color: rgba(68, 68, 68, 0.733);
     font-size: medium;
